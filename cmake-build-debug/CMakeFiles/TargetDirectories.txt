@@ -1,0 +1,3 @@
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-build-debug/CMakeFiles/LinuxProgrammingExamples.dir
