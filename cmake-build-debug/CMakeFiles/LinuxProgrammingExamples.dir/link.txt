@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/LinuxProgrammingExamples.dir/main.c.o  -o LinuxProgrammingExamples 
+/usr/bin/cc -g   CMakeFiles/LinuxProgrammingExamples.dir/main.c.o CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o  -o LinuxProgrammingExamples 

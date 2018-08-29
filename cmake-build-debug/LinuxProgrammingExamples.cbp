@@ -78,7 +78,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/first_linux.h">
+		<Unit filename="/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example1/first_linux.h">
+			<Option target="LinuxProgrammingExamples"/>
+		</Unit>
+		<Unit filename="/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/bill.c">
+			<Option target="LinuxProgrammingExamples"/>
+		</Unit>
+		<Unit filename="/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/calling_program.h">
+			<Option target="LinuxProgrammingExamples"/>
+		</Unit>
+		<Unit filename="/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/fred.c">
+			<Option target="LinuxProgrammingExamples"/>
+		</Unit>
+		<Unit filename="/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/lib.h">
 			<Option target="LinuxProgrammingExamples"/>
 		</Unit>
 		<Unit filename="/home/ntumba/CLionProjects/LinuxProgrammingExamples/main.c">

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -70,17 +70,47 @@ CMakeFiles/LinuxProgrammingExamples.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgrammingExamples.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ntumba/CLionProjects/LinuxProgrammingExamples/main.c -o CMakeFiles/LinuxProgrammingExamples.dir/main.c.s
 
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o: CMakeFiles/LinuxProgrammingExamples.dir/flags.make
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o: ../chapter1/example2/fred.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o   -c /home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/fred.c
+
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/fred.c > CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.i
+
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/fred.c -o CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.s
+
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o: CMakeFiles/LinuxProgrammingExamples.dir/flags.make
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o: ../chapter1/example2/bill.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o   -c /home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/bill.c
+
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/bill.c > CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.i
+
+CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/bill.c -o CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.s
+
 # Object files for target LinuxProgrammingExamples
 LinuxProgrammingExamples_OBJECTS = \
-"CMakeFiles/LinuxProgrammingExamples.dir/main.c.o"
+"CMakeFiles/LinuxProgrammingExamples.dir/main.c.o" \
+"CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o" \
+"CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o"
 
 # External object files for target LinuxProgrammingExamples
 LinuxProgrammingExamples_EXTERNAL_OBJECTS =
 
 LinuxProgrammingExamples: CMakeFiles/LinuxProgrammingExamples.dir/main.c.o
+LinuxProgrammingExamples: CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o
+LinuxProgrammingExamples: CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o
 LinuxProgrammingExamples: CMakeFiles/LinuxProgrammingExamples.dir/build.make
 LinuxProgrammingExamples: CMakeFiles/LinuxProgrammingExamples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LinuxProgrammingExamples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable LinuxProgrammingExamples"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinuxProgrammingExamples.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

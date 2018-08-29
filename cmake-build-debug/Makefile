@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ntumba/CLionProjects/LinuxProgrammingExamples/cmake-bui
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ntumba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -123,6 +123,60 @@ LinuxProgrammingExamples/fast:
 	$(MAKE) -f CMakeFiles/LinuxProgrammingExamples.dir/build.make CMakeFiles/LinuxProgrammingExamples.dir/build
 .PHONY : LinuxProgrammingExamples/fast
 
+chapter1/example2/bill.o: chapter1/example2/bill.c.o
+
+.PHONY : chapter1/example2/bill.o
+
+# target to build an object file
+chapter1/example2/bill.c.o:
+	$(MAKE) -f CMakeFiles/LinuxProgrammingExamples.dir/build.make CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.o
+.PHONY : chapter1/example2/bill.c.o
+
+chapter1/example2/bill.i: chapter1/example2/bill.c.i
+
+.PHONY : chapter1/example2/bill.i
+
+# target to preprocess a source file
+chapter1/example2/bill.c.i:
+	$(MAKE) -f CMakeFiles/LinuxProgrammingExamples.dir/build.make CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.i
+.PHONY : chapter1/example2/bill.c.i
+
+chapter1/example2/bill.s: chapter1/example2/bill.c.s
+
+.PHONY : chapter1/example2/bill.s
+
+# target to generate assembly for a file
+chapter1/example2/bill.c.s:
+	$(MAKE) -f CMakeFiles/LinuxProgrammingExamples.dir/build.make CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/bill.c.s
+.PHONY : chapter1/example2/bill.c.s
+
+chapter1/example2/fred.o: chapter1/example2/fred.c.o
+
+.PHONY : chapter1/example2/fred.o
+
+# target to build an object file
+chapter1/example2/fred.c.o:
+	$(MAKE) -f CMakeFiles/LinuxProgrammingExamples.dir/build.make CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.o
+.PHONY : chapter1/example2/fred.c.o
+
+chapter1/example2/fred.i: chapter1/example2/fred.c.i
+
+.PHONY : chapter1/example2/fred.i
+
+# target to preprocess a source file
+chapter1/example2/fred.c.i:
+	$(MAKE) -f CMakeFiles/LinuxProgrammingExamples.dir/build.make CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.i
+.PHONY : chapter1/example2/fred.c.i
+
+chapter1/example2/fred.s: chapter1/example2/fred.c.s
+
+.PHONY : chapter1/example2/fred.s
+
+# target to generate assembly for a file
+chapter1/example2/fred.c.s:
+	$(MAKE) -f CMakeFiles/LinuxProgrammingExamples.dir/build.make CMakeFiles/LinuxProgrammingExamples.dir/chapter1/example2/fred.c.s
+.PHONY : chapter1/example2/fred.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LinuxProgrammingExamples"
+	@echo "... chapter1/example2/bill.o"
+	@echo "... chapter1/example2/bill.i"
+	@echo "... chapter1/example2/bill.s"
+	@echo "... chapter1/example2/fred.o"
+	@echo "... chapter1/example2/fred.i"
+	@echo "... chapter1/example2/fred.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

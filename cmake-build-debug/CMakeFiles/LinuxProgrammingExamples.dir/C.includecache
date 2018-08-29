@@ -6,15 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/ntumba/CLionProjects/LinuxProgrammingExamples/./chapter1/first_linux.h
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example1/first_linux.h
 stdio.h
 -
 stdlib.h
 -
 
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/calling_program.h
+stdio.h
+-
+lib.h
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/lib.h
+
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/lib.h
+
 /home/ntumba/CLionProjects/LinuxProgrammingExamples/main.c
 stdio.h
 -
-./chapter1/first_linux.h
-/home/ntumba/CLionProjects/LinuxProgrammingExamples/./chapter1/first_linux.h
+chapter1/example1/first_linux.h
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example1/first_linux.h
+chapter1/example2/calling_program.h
+/home/ntumba/CLionProjects/LinuxProgrammingExamples/chapter1/example2/calling_program.h
 
